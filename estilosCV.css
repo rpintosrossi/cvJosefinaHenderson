@@ -15,19 +15,42 @@ header {
     background: linear-gradient(to bottom, red, orange);
 }
 
-.ejercico1 {
+.ejercicio1 {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
 
 }
 
 .ejercicio2 {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
 }
 
 .ejercicio3 {
     display: flex;
     justify-content: space-between;
 
+}
+
+.caja1{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+
+}
+
+.caja2{
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    
+}
+
+.caja3{
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    
 }
